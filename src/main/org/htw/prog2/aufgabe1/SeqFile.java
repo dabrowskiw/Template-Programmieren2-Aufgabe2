@@ -16,7 +16,7 @@ public class SeqFile {
     /**
      * Reads the specified FASTA file.
      * @param filename The path to the FASTA file
-     * @return false if the file could not be parsed (wrong format, does not exist), true otherwise.
+     * @return void
      */
     private void readFile(String filename) throws IOException, FileFormatException {
     }
