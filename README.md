@@ -43,8 +43,8 @@ Medikamentennamen sind in einer Definitionszeile beschrieben, die die erste Zeil
 Das Parsen dieser Medikamentennamen soll in der Methode ```public static List<String> parseDrugs(String line)``` implementiert werden, die eine ```List<String>``` mit den eingelesenen Medikamentennamen zurückgibt.
 
 Falls ein Eintrag in der Definitionszeile:
-* "Mutation Patterns" lautet, aber nicht das erste Element ist
-* "Number of Sequences" lautet, aber nicht das zweite Element ist
+* das erste Element ist, aber nicht "Mutation Patterns" lautet 
+* das zweite Element ist, aber nicht "Number of Sequences" lautet, 
 * Weder das erste noch das zweite Element ist und nicht mit ``` foldn"``` endet
 soll eine ```FileFormatException``` geworfen werden.
 
